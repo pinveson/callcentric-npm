@@ -16,15 +16,17 @@ We must grab the cookie from our browser data. This is fairly easy if you know w
 
 Next, we'll use this cookie in our code with the NPM package. You'll want your code to look something like this. We'll explain each part in the next step. 
 
-`const call = require('callcentric-npm') //call the package` 
+```js
+const call = require('callcentric-npm') //call the package
 
-`test() //call the function`
+test() //call the function
 
-`async function test() {`
+async function test() {
 
-```console.log(await call('MSG', 'TO', 'FROM', 'COOKIE'))```
+console.log(await call('MSG', 'TO', 'FROM', 'COOKIE'))
 
-`}`
+}
+```
 
 ---
 

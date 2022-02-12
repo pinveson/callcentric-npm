@@ -1,0 +1,26 @@
+{
+  "name": "callcentric-npm",
+  "version": "0.0.1",
+  "description": "A simple but unofficial NPM package to send SMS using Callcentric.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sms",
+    "callcentric",
+    "npm",
+    "text message"
+  ],
+  "homepage": "https://github.com/pinveson/callcentric-npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinveson/callcentric-npm"
+  },
+  "author": "willm4937",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
